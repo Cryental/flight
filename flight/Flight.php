@@ -68,11 +68,11 @@ class Flight
     private static Engine $engine;
 
     // Don't allow object instantiation
-    private function __construct()
+    public function __construct()
     {
     }
 
-    private function __clone()
+    public function __clone()
     {
     }
 
